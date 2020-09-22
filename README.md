@@ -1,2 +1,2 @@
-# Reactjs
-React공부하기🌞
+# reactjs
+react공부하기🌞
