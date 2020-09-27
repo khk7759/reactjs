@@ -10,6 +10,11 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<App/>, document.getElementById('root'));
+// index.js에서 보면 App 컴포넌트를 실행하는 코드가 있는데, 
+// 이 코드를 보고 있는 우리 입장에서는 이 코드가 내부적으로 state에 subject 값이 있는 지 없는지 모른다.
+// → 외부에서 알 필요가 없는 코드를 철저하게 은닉하는 것이 좋은 사용성을 만드는 핵심이 된다.
+// ex) 전선이 삐져나온 핸드폰?? 노....
+// 즉 App 이 내부적으로 사용할 상태는 state라는 형태를 통해 사용한다.
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
